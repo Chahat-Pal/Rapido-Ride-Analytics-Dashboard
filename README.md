@@ -29,13 +29,12 @@ Data Analytics Project/
 │
 ├── data/
 │   ├── rides_data.csv              ← Raw dataset (50,000 rides)
-│   └── rides_data_cleaned.csv      ← Generated after running notebook
+|   ├── rides_data_cleaned.csv      
 │
 ├── notebook/
-│   └── YourName_RideAnalysis.ipynb ← Full EDA + KPIs + Insights
+│   └── Chahat_RideAnalysis.ipynb   ← Full EDA + KPIs + Insights
 │
-├── dashboard/
-│   └── app.py                      ← 3-page Streamlit dashboard
+│── Chahat_Rapido_Ride_Analytics_Dashboard.py   ← Main Streamlit dashboard (Executive Overview, Ride & Revenue Analysis, Customer & Risk Analysis)
 │
 ├── report_images/                  ← 12 chart PNGs (auto-generated)
 │   ├── 01_ride_status.png
@@ -51,7 +50,7 @@ Data Analytics Project/
 │   ├── 11_top_source_areas.png
 │   └── 12_cancellation_by_service.png
 │
-├── YourName_ProjectReport.docx     ← Full internship report
+├── Chahat_ProjectReport.docx     ← Full internship report
 ├── requirements.txt                ← All Python dependencies
 └── README.md
 ```
@@ -135,7 +134,7 @@ pip install -r requirements.txt
 
 ```bash
 cd notebook
-jupyter notebook YourName_RideAnalysis.ipynb
+jupyter notebook Chahat_RideAnalysis.ipynb
 ```
 
 - Select **Kernel → Restart & Run All**
@@ -145,7 +144,7 @@ jupyter notebook YourName_RideAnalysis.ipynb
 ### Option B — Launch the Interactive Dashboard
 
 ```bash
-streamlit run dashboard/app.py
+streamlit run Chahat_Rapido_Ride_Analytics_Dashboard.py
 ```
 
 Open **http://localhost:8501** in your browser.
@@ -184,10 +183,10 @@ All charts and insights **update dynamically** based on the active filters.
 
 ## 👤 Author
 
-**[Your Name]**
+**[Chahat Pal]**
 Data Analytics Internship
 Tools: Python · Pandas · Plotly · Streamlit · Matplotlib · Seaborn
 
 ---
 
-*Built for the Data Analytics Internship Submission · 2024*
+*Built for the Data Analytics Internship Submission · 2026*
