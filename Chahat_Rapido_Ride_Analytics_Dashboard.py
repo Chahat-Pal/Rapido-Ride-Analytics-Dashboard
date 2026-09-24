@@ -1,7 +1,7 @@
 """
-Rapido Ride Analytics  ·  code.py
+Rapido Ride Analytics  ·  Chahat_Rapido_Ride_Analytics_Dashboard.py
 ==================================
-Single-file Data Analytics project.
+Data Analytics project.
 
 Sections
 --------
@@ -17,7 +17,7 @@ Sections
  10. Main
 
 Run:
-    streamlit run code.py
+    streamlit run Chahat_Rapido_Ride_Analytics_Dashboard.py
 """
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -106,7 +106,7 @@ st.markdown(
 # 3. DATA LOADING
 # ══════════════════════════════════════════════════════════════════════════════
 # Dataset is always at data/rides_data.csv, relative to the project root.
-# When running `streamlit run code.py` from the project root this resolves correctly.
+# When running `streamlit run Chahat_Rapido_Ride_Analytics_Dashboard.py` from the project root this resolves correctly.
 DATA_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "rides_data.csv")
 
 
