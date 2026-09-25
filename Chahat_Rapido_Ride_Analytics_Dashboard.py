@@ -944,7 +944,7 @@ def main():
             "<div style='text-align:center;padding:12px 0 6px;'>"
             "<span style='font-size:36px;'>🚖</span><br>"
             "<span style='font-size:15px;font-weight:700;color:#1f2328;'>Rapido Analytics</span><br>"
-            "<span style='font-size:11px;color:#6b7280;'>Internship Dashboard</span>"
+            "<span style='font-size:11px;color:#6b7280;'>"Ride Analytics Dashboard"</span>"
             "</div>",
             unsafe_allow_html=True,
         )
