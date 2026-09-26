@@ -1,4 +1,7 @@
-# 🚖 Rapido Ride Analytics — Data Analytics Internship Project
+# 🚖 Rapido Ride Analytics Dashboard
+
+An interactive data analytics dashboard built using Streamlit to analyze ride data, identify business risks, and generate actionable insights.
+🔗 Live App: https://rapido-ride-analytics-dashboard.streamlit.app/
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.37-red)
@@ -184,9 +187,12 @@ All charts and insights **update dynamically** based on the active filters.
 ## 👤 Author
 
 **[Chahat Pal]**
-Data Analytics Internship
-Tools: Python · Pandas · Plotly · Streamlit · Matplotlib · Seaborn
+Data Analytics Intern | B.Tech CSE (Data Science)
 
+🔗 LinkedIn: https://www.linkedin.com/in/chahat-p-6a2a42303  
+💻 GitHub: https://github.com/Chahat-Pal  
+
+**Tools Used:** Python · Pandas · Plotly · Streamlit
 ---
 
-*Built for the Data Analytics Internship Submission · 2026*
+*Built as part of a Data Analytics Internship Project · 2026*
